@@ -1,0 +1,42 @@
+.main-order-content{
+    padding-top: 90px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap-reverse;
+    align-content: space-around;
+
+}
+.order-form form input{
+    display: block;
+   margin-top: 20px;
+   padding: 10px 500px 10px 20px;
+   outline: none;
+}
+.order-form form button{
+    margin: 20px 0px;
+    margin-left: 10%;
+    height: 40px;
+    width: 70%;
+    cursor: pointer;
+    background-color: #ff004f;
+    font-size: 15px;
+    font-weight: 600;
+    color: #fff;
+    border: none;
+    z-index: 1;
+    border: 20px;
+}
+h1{
+    padding-top: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+@media only screen and (max-width:1050px){
+    .order-form form input{
+       
+       padding: 10px 150px 10px 20px;
+    } 
+}

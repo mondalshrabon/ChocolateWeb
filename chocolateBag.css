@@ -1,0 +1,149 @@
+.items-content{
+    padding-top: 200px;
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 30px;
+    margin-left: 0px;
+    width: 100%;
+}
+.item-contents{
+    margin-bottom: 20px;
+
+}
+.item-content{
+display: flex;
+justify-content: space-evenly;
+align-items: center;
+padding: 20px 0px;
+margin-right: 80px;
+border-top: 1px solid black;
+border-bottom: 1px solid black;
+margin-top: 20px;
+
+width: 100%;
+}
+.item-title{
+    font-size: 14px;
+  font-weight: 700;
+  margin-right: 50px;
+  padding: 0px;
+  
+
+}
+.item-price{
+    font-weight: 500;
+    margin-right: 25px;
+
+
+}
+.total-price{
+    margin-right: 20px;
+    color: rgb(143, 206, 48);
+
+}
+.remove-x{
+    color: brown;
+    margin-right: 30px;
+    font-size: 20px;
+    cursor: pointer;
+
+}
+.totals{
+    min-width: 300px;
+ width: 30%;
+
+}
+.totals-sub{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 0px;
+    border-bottom: 1px solid black;
+    
+}
+.totali-delavery{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 0px;
+    border-bottom: 1px solid black;
+
+}
+.totale-item{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 0px;
+
+
+}
+.cart-totals{
+    margin-top: 50px;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    margin-left: 2%;
+}
+.Place-Order{
+  height: 30px;
+  width: 40%;
+    margin-bottom: 40px;
+    margin-left: 140px;
+    background-color:#ff004f ;
+    border: none;
+    border-radius: 10px;
+}
+.Place-Order a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: 700;
+}
+
+@media only screen and (max-width:1050px){
+    .items-content{
+        padding-top: 110px;
+        display: flex;
+        justify-content:space-around;
+        padding-bottom: 30px;
+       margin-right: 20px;
+    }
+    
+    .item-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0px;
+    margin-right: 85px;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    }
+    .item-img img{
+        height: 100px;
+        width: 60px;
+    }
+    .item-title{
+      font-weight: 700;
+      margin-right: 10px;
+      font-size: 10px;
+      padding: 0px;
+    
+    }
+    .item-price{
+        font-weight: 500;
+        margin-right: 0px;
+    
+    
+    }
+    .total-price{
+        margin-right:0px;
+        color: rgb(143, 206, 48);
+    
+    }
+    .remove-x{
+        color: brown;
+        margin-left: 10px;
+        font-size: 15px;
+    
+    }
+    .Place-Order{
+        margin-left: 33%;
+    }
+
+
+}
